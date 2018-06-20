@@ -1,6 +1,6 @@
 [user]
-	name = Kevin Ushijima
-	email = kju204@gmail.com
+    name = Kevin Ushijima
+    email = kju204@gmail.com
 [alias]
     br = branch
     ci = commit
@@ -11,7 +11,7 @@
 [color]
     ui = auto
 [filter "lfs"]
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
