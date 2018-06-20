@@ -1,0 +1,17 @@
+[user]
+	name = Kevin Ushijima
+	email = kju204@gmail.com
+[alias]
+    br = branch
+    ci = commit
+    co = checkout
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%an, %cr)%Creset' --abbrev-commit --date=relative --topo-order
+    st = status -sb
+    up = fetch --all --prune
+[color]
+    ui = auto
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
